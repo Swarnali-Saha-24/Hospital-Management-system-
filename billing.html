@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Billing | CityCare Hospital</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-file-invoice-dollar"></i>
+
+<h2>CityCare Hospital</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="patients.html">Patients</a></li>
+
+<li><a href="doctors.html">Doctors</a></li>
+
+<li><a href="appointments.html">Appointments</a></li>
+
+<li><a href="billing.html" class="active">Billing</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="patient-page">
+
+<h1>Billing Management</h1>
+
+<p>Create and manage patient bills.</p>
+
+<div class="patient-form">
+
+<h2>Generate Bill</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Patient Name"
+required>
+
+<input
+type="text"
+placeholder="Doctor Name"
+required>
+
+<input
+type="text"
+placeholder="Treatment"
+required>
+
+<input
+type="number"
+placeholder="Amount (₹)"
+required>
+
+<select required>
+
+<option>Paid</option>
+
+<option>Unpaid</option>
+
+</select>
+
+<button class="btn">
+
+Generate Bill
+
+</button>
+
+</form>
+
+</div>
+
+<h2 class="table-title">
+
+Billing Records
+
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Bill ID</th>
+
+<th>Patient</th>
+
+<th>Doctor</th>
+
+<th>Treatment</th>
+
+<th>Amount</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>B001</td>
+
+<td>Rahul Das</td>
+
+<td>Dr. Priya Sen</td>
+
+<td>General Checkup</td>
+
+<td>₹500</td>
+
+<td>Paid</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+<tr>
+
+<td>B002</td>
+
+<td>Priya Sharma</td>
+
+<td>Dr. Arjun Roy</td>
+
+<td>Neurology Consultation</td>
+
+<td>₹1200</td>
+
+<td>Paid</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>B003</td>
+
+<td>Rohit Kumar</td>
+
+<td>Dr. Meera Singh</td>
+
+<td>Heart Checkup</td>
+
+<td>₹2500</td>
+
+<td>Unpaid</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>B004</td>
+
+<td>Ananya Paul</td>
+
+<td>Dr. Rahul Das</td>
+
+<td>X-Ray</td>
+
+<td>₹800</td>
+
+<td>Paid</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>B005</td>
+
+<td>Amit Verma</td>
+
+<td>Dr. Anjali Sharma</td>
+
+<td>Skin Treatment</td>
+
+<td>₹1500</td>
+
+<td>Unpaid</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

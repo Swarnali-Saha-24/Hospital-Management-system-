@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Appointments | CityCare Hospital</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-calendar-check"></i>
+
+<h2>CityCare Hospital</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="patients.html">Patients</a></li>
+
+<li><a href="doctors.html">Doctors</a></li>
+
+<li><a href="appointments.html" class="active">Appointments</a></li>
+
+<li><a href="billing.html">Billing</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="patient-page">
+
+<h1>Appointment Management</h1>
+
+<p>Book and manage appointments.</p>
+
+<div class="patient-form">
+
+<h2>Book Appointment</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Patient Name"
+required>
+
+<input
+type="text"
+placeholder="Doctor Name"
+required>
+
+<input
+type="date"
+required>
+
+<input
+type="time"
+required>
+
+<select required>
+
+<option>Pending</option>
+
+<option>Confirmed</option>
+
+<option>Completed</option>
+
+</select>
+
+<button class="btn">
+
+Book Appointment
+
+</button>
+
+</form>
+
+</div>
+
+<h2 class="table-title">
+
+Appointment Records
+
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Patient</th>
+
+<th>Doctor</th>
+
+<th>Date</th>
+
+<th>Time</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>A001</td>
+
+<td>Rahul Das</td>
+
+<td>Dr. Priya Sen</td>
+
+<td>05/08/2026</td>
+
+<td>10:30 AM</td>
+
+<td>Confirmed</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+<tr>
+
+<td>A002</td>
+
+<td>Priya Sharma</td>
+
+<td>Dr. Arjun Roy</td>
+
+<td>06/08/2026</td>
+
+<td>11:00 AM</td>
+
+<td>Pending</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>A003</td>
+
+<td>Rohit Kumar</td>
+
+<td>Dr. Meera Singh</td>
+
+<td>07/08/2026</td>
+
+<td>02:15 PM</td>
+
+<td>Completed</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>A004</td>
+
+<td>Ananya Paul</td>
+
+<td>Dr. Rahul Das</td>
+
+<td>08/08/2026</td>
+
+<td>09:45 AM</td>
+
+<td>Confirmed</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>A005</td>
+
+<td>Amit Verma</td>
+
+<td>Dr. Anjali Sharma</td>
+
+<td>09/08/2026</td>
+
+<td>04:00 PM</td>
+
+<td>Pending</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

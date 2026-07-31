@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Patients | CityCare Hospital</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-hospital"></i>
+
+<h2>CityCare Hospital</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="patients.html" class="active">Patients</a></li>
+
+<li><a href="doctors.html">Doctors</a></li>
+
+<li><a href="appointments.html">Appointments</a></li>
+
+<li><a href="billing.html">Billing</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="patient-page">
+
+<h1>Patient Management</h1>
+
+<p>Add and manage patient records.</p>
+
+<div class="patient-form">
+
+<h2>Add New Patient</h2>
+
+<form id="patientForm">
+
+    <input id="patientName" type="text" placeholder="Patient Name" required>
+
+    <input id="patientAge" type="number" placeholder="Age" required>
+
+    <select id="patientGender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <input id="patientDisease" type="text" placeholder="Disease" required>
+
+    <input id="patientPhone" type="text" placeholder="Phone Number" required>
+
+<input id="patientAddress" type="text" placeholder="Address" required>
+
+    <button type="submit" class="btn">
+        Add Patient
+    </button>
+
+</form>
+
+</div>
+
+<h2 class="table-title">
+
+Patient Records
+
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Name</th>
+
+<th>Age</th>
+
+<th>Gender</th>
+
+<th>Disease</th>
+
+<th>Doctor</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>P001</td>
+
+<td>Rahul Das</td>
+
+<td>25</td>
+
+<td>Male</td>
+
+<td>Fever</td>
+
+<td>Dr. Priya Sen</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+<tr>
+
+<td>P002</td>
+
+<td>Priya Sharma</td>
+
+<td>32</td>
+
+<td>Female</td>
+
+<td>Diabetes</td>
+
+<td>Dr. Arjun Roy</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>P003</td>
+
+<td>Rohit Kumar</td>
+
+<td>41</td>
+
+<td>Male</td>
+
+<td>Heart Disease</td>
+
+<td>Dr. Meera Singh</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>P004</td>
+
+<td>Ananya Paul</td>
+
+<td>18</td>
+
+<td>Female</td>
+
+<td>Asthma</td>
+
+<td>Dr. Rahul Das</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>P005</td>
+
+<td>Amit Verma</td>
+
+<td>56</td>
+
+<td>Male</td>
+
+<td>Hypertension</td>
+
+<td>Dr. Priya Sen</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

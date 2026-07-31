@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Doctors | CityCare Hospital</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<h2>CityCare Hospital</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="patients.html">Patients</a></li>
+
+<li><a href="doctors.html" class="active">Doctors</a></li>
+
+<li><a href="appointments.html">Appointments</a></li>
+
+<li><a href="billing.html">Billing</a></li>
+
+<li><a href="index.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="patient-page">
+
+<h1>Doctor Management</h1>
+
+<p>Add and manage doctor details.</p>
+
+<div class="patient-form">
+
+<h2>Add New Doctor</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Doctor Name"
+required>
+
+<input
+type="text"
+placeholder="Specialization"
+required>
+
+<input
+type="text"
+placeholder="Qualification"
+required>
+
+<input
+type="number"
+placeholder="Experience (Years)"
+required>
+
+<input
+type="tel"
+placeholder="Phone Number"
+required>
+
+<button class="btn">
+
+Add Doctor
+
+</button>
+
+</form>
+
+</div>
+
+<h2 class="table-title">
+
+Doctor Records
+
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Name</th>
+
+<th>Specialization</th>
+
+<th>Qualification</th>
+
+<th>Experience</th>
+
+<th>Phone</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>D001</td>
+
+<td>Dr. Priya Sen</td>
+
+<td>Cardiologist</td>
+
+<td>MBBS, MD</td>
+
+<td>10 Years</td>
+
+<td>9876543210</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+<tr>
+
+<td>D002</td>
+
+<td>Dr. Arjun Roy</td>
+
+<td>Neurologist</td>
+
+<td>MBBS, DM</td>
+
+<td>12 Years</td>
+
+<td>9123456780</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>D003</td>
+
+<td>Dr. Meera Singh</td>
+
+<td>Pediatrician</td>
+
+<td>MBBS, MD</td>
+
+<td>8 Years</td>
+
+<td>9988776655</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>D004</td>
+
+<td>Dr. Rahul Das</td>
+
+<td>Orthopedic</td>
+
+<td>MBBS, MS</td>
+
+<td>15 Years</td>
+
+<td>9876501234</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>D005</td>
+
+<td>Dr. Anjali Sharma</td>
+
+<td>Dermatologist</td>
+
+<td>MBBS, MD</td>
+
+<td>9 Years</td>
+
+<td>9765432101</td>
+
+<td>
+
+<button>Edit</button>
+
+<button>Delete</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
